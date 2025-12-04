@@ -312,7 +312,7 @@
     }
     .slider-catalog .slick-list,
     .row.row_catalog {
-        margin: 20px -4px;
+        margin: -20px -4px;
     }
     .item-catalog__title {
         margin-bottom: 16px;
@@ -787,6 +787,7 @@
     }
     .footer {
         margin: 0 -15px;
+        padding-bottom: 50px;
         font-size: 14px;
         border-radius: 0;
         background: #F1F6FA;
