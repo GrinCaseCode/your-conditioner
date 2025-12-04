@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox-master/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.1" />
+	<link rel="stylesheet" href="css/media.css?ver=1.1" />
+</head>
+<body>
+
+	<div class="wrapper">
+
+		<header class="header">
+			<div class="container">
+				<div class="header__top">
+					<div class="sandwich">
+						<div class="sw-topper"></div>
+						<div class="sw-bottom"></div>
+						<div class="sw-footer"></div>
+					</div>
+					<a href="#" class="logo">
+						<span class="logo__image">
+							<img src="img/logo.svg" alt="alt">
+						</span>
+						<span class="logo__text">
+							<span class="logo__title">ВАШ КОНДИЦИОНЕР</span>
+							<span class="logo__descr">Продажа и установка кондиционеров под ключ</span>
+						</span>
+					</a>
+					<div class="search-main">
+						<form>
+							<input type="text" placeholder="Поиск кондиционеров" required>
+							<button class="search-main__btn"></button>
+						</form>
+					</div>
+					<div class="header__buttons">
+						<div class="btn-header btn-header_menu show-mob">
+							<i class="fas fa-list-ul"></i>
+						</div>
+						<div class="btn-header btn-header_search show-mob">
+							<img src="img/search.svg" alt="alt">
+						</div>
+						<a href="#" class="btn-header">
+							<img src="img/cart.svg" alt="alt">
+							<span class="btn-header__count">1</span>
+						</a>
+						<a href="#" class="btn-header">
+							<img src="img/favorites.svg" alt="alt">
+						</a>
+						<a href="#" class="btn-header">
+							<img src="img/user.svg" alt="alt">
+						</a>
+					</div>
+					<a href="tel:+79789415191" class="phone-main">+7 (978) 941-51-91 <i class="fas fa-phone-alt"></i></a>
+				</div>
+				<div class="header__bottom">
+					<nav class="menu">
+						<ul class="menu__list">
+							<li><a href="#">Главная</a></li>
+							<li class="menu__accent"><a href="#">Акции</a></li>
+							<li class="menu__accent"><a href="#">Новинки</a></li>
+							<li class="menu__accent"><a href="#">Хиты продаж</a></li>
+							<li><a href="#">Установка</a></li>
+							<li><a href="#">Обслуживание</a></li>
+							<li><a href="#">Визуальный подбор</a></li>
+							<li><a href="#">Доставка</a></li>
+							<li><a href="#">Как выбрать</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<div class="menu-overlay"></div>
+
+		<main class="main">
+			<div class="container">
+				<div class="main__wrapper">
+					<div class="main__sidebar">
+						<a href="#" class="main__sidebar-catalog">
+							<img src="img/ic_catalog.svg" alt="alt">
+							КАТАЛОГ
+						</a>
+						<a href="#" class="main__sidebar-category">
+							<img src="img/ic_sidebar1.svg" alt="alt">
+							Настенные системы
+						</a>
+						<a href="#" class="main__sidebar-category">
+							<img src="img/ic_sidebar2.svg" alt="alt">
+							Инверторные модели
+						</a>
+						<a href="#" class="main__sidebar-category">
+							<img src="img/ic_sidebar3.svg" alt="alt">
+							Мультисплит-системы
+						</a>
+						<a href="#" class="main__sidebar-category">
+							<img src="img/ic_sidebar4.svg" alt="alt">
+							Мобильные кондиционеры
+						</a>
+						<div class="main__sidebar-item">
+							<div class="main__sidebar-head">По брендам <i class="fas fa-chevron-down"></i></div>
+							<div class="main__sidebar-content">
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox" checked />
+										<span>Daikin</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>LG</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>Mitsubishi</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>Dahatsu</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>Ecostar</span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="main__sidebar-item">
+							<div class="main__sidebar-head">По мощности <i class="fas fa-chevron-down"></i></div>
+							<div class="main__sidebar-content">
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox" checked />
+										<span>9 BTU</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>12 BTU</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>18 BTU</span>
+									</label>
+								</div>
+								<div class="checkbox checkbox_main">
+									<label>
+										<input type="checkbox"/>
+										<span>24 BTU</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="main__content">
+
+						<section class="billbord">
+							<div class="billbord__banner">
+								<div class="billbord__content">
+									<h1 class="billbord__title">Мы создаем идеальный <span>климат</span> для вас</h1>
+									<h3 class="billbord__descr">Кондиционеры с установкой и гарантией в Симферополе</h3>
+								</div>
+								<div class="billbord__items">
+									<div class="billbord__item">Широкий ассортимент от ведущих производителей</div>
+									<div class="billbord__item">Доставка по Крыму</div>
+									<div class="billbord__item">Профессиональная установка</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-4">
+									<a href="#" class="item-banner item-banner_1">
+										<span class="item-banner__value">30 <span>%</span></span>
+										<span class="item-banner__text">на все сплит-системы Dahatsu серии Dragon</span>
+										<span class="item-banner__image">
+											<img src="img/banner1.png" alt="alt">
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4">
+									<a href="#" class="item-banner item-banner_2">
+										<span class="item-banner__title">установка <strong>в подарок</strong></span>
+										<span class="item-banner__text">при покупке кондиционера</span>
+										<span class="item-banner__image">
+											<img src="img/banner2.png" alt="alt">
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-4">
+									<a href="#" class="item-banner item-banner_3">
+										<span class="item-banner__title"><strong>комплект</strong></span>
+										<span class="item-banner__line">
+											<span class="item-banner__text">Второй товар со скидкой</span>
+											<span class="item-banner__value">50 <span>%</span></span>
+										</span>
+										<span class="item-banner__image">
+											<img src="img/banner3.png" alt="alt">
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="row row_advantages">
+								<div class="col-lg-3 col-6">
+									<div class="item-advantage">
+										<div class="item-advantage__icon">
+											<img src="img/ic_avd1.svg" alt="alt">
+										</div>
+										<div class="item-advantage__title">Доставка по Крыму</div>
+										<div class="item-advantage__text">
+											<p>Доставляем товары в четко оговоренный день и время</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-6">
+									<div class="item-advantage">
+										<div class="item-advantage__icon">
+											<img src="img/ic_avd2.svg" alt="alt">
+										</div>
+										<div class="item-advantage__title">Профессиональная установка</div>
+										<div class="item-advantage__text">
+											<p>Опытные монтажники обеспечат качественный монтаж</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-6">
+									<div class="item-advantage">
+										<div class="item-advantage__icon">
+											<img src="img/ic_avd3.svg" alt="alt">
+										</div>
+										<div class="item-advantage__title">Гарантия производителя</div>
+										<div class="item-advantage__text">
+											<p>Гарантия производителя</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-3 col-6">
+									<div class="item-advantage">
+										<div class="item-advantage__icon">
+											<img src="img/ic_avd4.svg" alt="alt">
+										</div>
+										<div class="item-advantage__title">Сервисное обслуживание</div>
+										<div class="item-advantage__text">
+											<p>Техническое обслуживание и ремонт кондиционеров</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="catalog">
+							<h2 class="title-section">Хиты продаж</h2>
+							<div class="slider-catalog">
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_hit">хит</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_hit">хит</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_hit">хит</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_hit">хит</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="catalog">
+							<h2 class="title-section">Хиты продаж</h2>
+							<div class="slider-catalog">
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_new">новинка</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<div class="labels">
+											<div class="labels__item labels__item_sale">-30%</div>
+										</div>
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+								<div>
+									<div class="item-catalog">
+										<a href="#" class="item-catalog__image">
+											<img src="img/catalog1.jpg" alt="alt">
+										</a>
+										<div class="brand-badge">Dahatsu Dragon</div>
+										<a href="#" class="item-catalog__title">ECOCLIMA CMWM-H09/4R2 W (внутренний настенный блок)</a>
+										<div class="features">
+											<div class="features__item">
+												<div class="features__title">Площадь:</div>
+												<div class="features__value">25 м.кв</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">Мощность:</div>
+												<div class="features__value">9 BTU</div>
+											</div>
+											<div class="features__item">
+												<div class="features__title">WI-FI:</div>
+												<div class="features__value">Нет</div>
+											</div>
+										</div>
+										<div class="item-catalog__prices">
+											<div class="price-old">15 000 ₽</div>
+											<div class="price-main">13 000 ₽</div>
+										</div>
+										<div class="item-catalog__buttons">
+											<a href="#" class="btn-main">Купить</a>
+											<div class="btn-favorite"><i class="far fa-heart"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section class="visual">
+							<h2 class="title-section">Визуальный подбор кондиционера</h2>
+							<div class="visual__descr">
+								<p>Не знаете какой кондиционер выбрать? Используйте наш интерактивный помощник для быстрого подбора идеального решения. Ответьте на несколько простых вопросов о вашем помещении и предпочтениях, и мы предложим лучшие модели из нашего каталога!</p>
+							</div>
+							<div class="row row_main">
+								<div class="col-lg-6">
+									<a href="#" class="item-visual">
+										<span class="item-visual__title">для дома</span>
+										<span class="item-visual__text">Подбор кондиционера для спальни, гостиной или кухни</span>
+										<span class="item-visual__image">
+											<img src="img/visual1.png" alt="alt">
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-6">
+									<a href="#" class="item-visual">
+										<span class="item-visual__title">для офиса</span>
+										<span class="item-visual__text">Мощные системы для офисных помещений и торговых центров</span>
+										<span class="item-visual__image">
+											<img src="img/visual2.png" alt="alt">
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-6">
+									<a href="#" class="item-visual">
+										<span class="item-visual__title">по площади</span>
+										<span class="item-visual__text">Выберите размер помещения (мощность 9, 12, 18, 24 BTU)</span>
+										<span class="item-visual__image">
+											<img src="img/visual3.png" alt="alt">
+										</span>
+									</a>
+								</div>
+								<div class="col-lg-6">
+									<a href="#" class="item-visual">
+										<span class="item-visual__title">по бюджету</span>
+										<span class="item-visual__text">Найдите оптимальное соотношение цены и качества</span>
+										<span class="item-visual__image">
+											<img src="img/visual4.png" alt="alt">
+										</span>
+									</a>
+								</div>
+							</div>
+						</section>
+
+						<section class="brands">
+							<h2 class="title-section">Популярные бренды кондиционеров</h2>
+							<div class="grid-brands">
+								<a href="#" class="item-brand">
+									<span class="item-brand__image">
+										<img src="img/brand1.png" alt="alt">
+									</span>
+									<span class="item-brand__title">Премиум японский производитель, лидер в инновациях</span>
+								</a>
+								<a href="#" class="item-brand">
+									<span class="item-brand__image">
+										<img src="img/brand2.png" alt="alt">
+									</span>
+									<span class="item-brand__title">Корейская марка, отличное соотношение цены и качества</span>
+								</a>
+								<a href="#" class="item-brand">
+									<span class="item-brand__image">
+										<img src="img/brand3.png" alt="alt">
+									</span>
+									<span class="item-brand__title">Японское качество, надежность и долговечность</span>
+								</a>
+								<a href="#" class="item-brand">
+									<span class="item-brand__image">
+										<img src="img/brand4.png" alt="alt">
+									</span>
+									<span class="item-brand__title">Доступные цены, проверенная надежность</span>
+								</a>
+								<a href="#" class="item-brand">
+									<span class="item-brand__image">
+										<img src="img/brand5.png" alt="alt">
+									</span>
+									<span class="item-brand__title">Экологичные решения с озонобезопасным R32</span>
+								</a>
+							</div>
+						</section>
+
+						<section class="guide">
+							<h2 class="title-section">Как выбрать бытовой кондиционер — полное руководство</h2>
+							<div class="title-small">Основные параметры выбора:</div>
+							<div class="row row_main">
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Площадь помещения</div>
+										<div class="item-guide__text">
+											<p>определяет требуемую мощность системы (9, 12, 18, 24 BTU). Примерно: 9 BTU на 20 м², 12 BTU на 30 м², 18 BTU на 45 м²</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Тип помещения</div>
+										<div class="item-guide__text">
+											<p>спальня требует тихую модель (22 dB), офис - мощную систему, кухня - модель с повышенной производительностью</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Энергоэффективность</div>
+										<div class="item-guide__text">
+											<p>классы A++, A+, A позволяют значительно экономить электроэнергию и снижать затраты на коммунальные услуги</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Дополнительные функции</div>
+										<div class="item-guide__text">
+											<p>WiFi управление, ночной режим, осушение, вентиляция, ионизация воздуха</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Бренд и надежность</div>
+										<div class="item-guide__text">
+											<p>проверенные производители (Daikin, LG, Mitsubishi) обеспечивают долгий срок службы</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-6">
+									<div class="item-guide">
+										<div class="item-guide__title">Инверторная технология</div>
+										<div class="item-guide__text">
+											<p>более эффективна, экономит электроэнергию и обеспечивает точное поддержание температуры</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="advice">
+								<div class="advice__title"><img src="img/idea.svg" alt="alt">совет:</div>
+								<div class="advice__content">
+									<p>Наши менеджеры с радостью помогут вам подобрать идеальное устройство, учитывая все особенности вашего помещения и требования!</p>
+								</div>
+							</div>
+						</section>
+
+						<section class="about">
+							<h2 class="title-section">Купить кондиционер в Симферополе - виды и типы сплит-систем</h2>
+							<h3>Интернет-магазин кондиционеров «Ваш Кондиционер»</h3>
+							<p>Интернет-магазин бытовых кондиционеров "Ваш Кондиционер" предлагает <a href="#"><strong>широкий ассортимент климатической техники</strong></a> от ведущих мировых производителей. В нашем каталоге представлены настенные, мобильные, инверторные и другие модели кондиционеров, которые обеспечат комфортный микроклимат в вашем доме, офисе или квартире. У нас вы найдете оптимальное решение для любого помещения по доступной цене.</p>
+							<div class="about__content">
+								<h3>Типы кондиционеров в нашем каталоге:</h3>
+								<ul>
+									<li><strong>Настенные кондиционеры</strong> — идеально подходят для квартир и частных домов. Компактные размеры и разнообразие дизайнов позволяют легко вписать их в любой интерьер. Один из самых популярных типов в России.</li>
+									<li><strong>Инверторные модели</strong> — современные энергоэффективные устройства с низким уровнем шума. Отлично подходят для помещений, где требуется точное поддержание температуры и экономия электроэнергии.</li>
+									<li><strong>Мобильные кондиционеры</strong> — портативные решения, которые легко перемещать между комнатами. Не требуют сложной установки и идеальны для арендного жилья.</li>
+									<li><strong>Мультисплит-системы</strong> — возможность подключения нескольких внутренних блоков к одному внешнему. Идеально для больших помещений, офисов и многокомнатных квартир.</li>
+								</ul>
+							</div>
+							<h3>Преимущества покупки в «Ваш Кондиционер»:</h3>
+							<ul class="list-columns">
+								<li><strong>Мы предоставляем полный комплекс услуг по продаже, доставке и обслуживанию кондиционеров</strong></li>
+								<li><strong>Доставка по Крыму - наши курьеры доставляют товары в четко оговоренный день и время</strong></li>
+								<li><strong>Возврат любого товара в течение 14 дней с момента покупки без дополнительных вопросов</strong></li>
+								<li><strong>Гарантия от производителя на все товары - срок указан на странице товара</strong></li>
+								<li><strong>Профессиональная установка и сервисное обслуживание опытными монтажниками</strong></li>
+								<li><strong>Консультация менеджеров по выбору оптимального решения под ваши потребности	</strong></li>
+							</ul>
+							<h3>Характеристики Dahatsu Dragon серии:</h3>
+							<p>Сплит-системы Dahatsu серии Dragon представляют собой превосходное сочетание современного дизайна и функциональности. Их обтекаемые формы соответствуют последним трендам в области интерьерного дизайна, что делает эти сплит-системы идеальным выбором для помещений с высокими требованиями к эстетике.</p>
+							<p>Технические характеристики сплит-систем Dahatsu серии Dragon соответствуют высочайшим стандартам качества. Они обладают высокой энергоэффективностью, обеспечивая экономию электроэнергии и сокращение затрат на отопление и охлаждение. Благодаря продуманному дизайну и современным технологиям, сплит-системы Dahatsu Dragon обеспечивают комфортный и уютный климат в помещении в течение всего года.</p>
+							<h3>Модели Ecostar Radium:</h3>
+							<ul>
+								<li><strong>Класс энергоэффективности А</strong> — наивысший класс, гарантирует экономию электроэнергии и высокую производительность</li>
+								<li><strong>4 режима работы</strong> — охлаждение, обогрев, осушение и вентиляция</li>
+								<li><strong>Озонобезопасный хладагент R32</strong> — экологически чистое решение для окружающей среды</li>
+								<li><strong>Антикоррозийное покрытие Blue Fin</strong> — специальное покрытие, позволяющее увеличить срок службы устройства</li>
+								<li><strong>Ночной режим</strong> — вентилятор работает на низких оборотах, создавая комфортные условия для сна</li>
+								<li><strong>WiFi модуль LA-WF-TL10</strong> — управление кондиционером с помощью смартфона</li>
+							</ul>
+							<h3>Почему выбирают магазин «Ваш Кондиционер»:</h3>
+							<p>Компания "Ваш Кондиционер" занимает лидирующую позицию на рынке климатической техники в Симферополе. Мы специализируемся на продаже и обслуживании кондиционеров уже более 10 лет, завоевав доверие тысяч клиентов. Каждая карточка товара на сайте содержит подробное описание, технические характеристики и актуальную цену.</p>
+							<p>Наша миссия - создавать идеальный климат для вас, обеспечивая розничную продажу кондиционеров и создание комфортного микроклимата для частных клиентов, офисов, гостиниц, школ и других учреждений.</p>
+						</section>
+
+						<footer class="footer">
+							<div class="footer__grid">
+								<div class="footer__column">
+									<a href="#" class="logo">
+										<span class="logo__image">
+											<img src="img/logo.svg" alt="alt">
+										</span>
+										<span class="logo__text">
+											<span class="logo__title">ВАШ КОНДИЦИОНЕР</span>
+											<span class="logo__descr">Продажа и установка кондиционеров под ключ</span>
+										</span>
+									</a>
+									<div class="footer__info">Ваш кондиционер - официальный поставщик ведущих компаний климатического оборудования: Hisense, Gree, Denko, LG, Ecostar, Dahatsu. Наш опыт работы — более 14 лет</div>
+									<div class="footer__info">Интернет-магазин «Ваш кондиционер» <br>ИП Асиновский Сергей Валерьевич <br>ИНН: 910224929978, <br>ОГРНИП: 323911200101301 <br>г. Симферополь, ул. Крымской Правды, 8-А</div>
+								</div>
+								<div class="footer__column">
+									<div class="footer__title">Интернет-магазин <i class="far fa-chevron-down"></i></div>
+									<div class="footer__content">
+										<ul class="footer__nav">
+											<li><a href="#">О компании Ваш Кондиционер</a></li>
+											<li><a href="#">Бренды</a></li>
+											<li><a href="#">Контакты</a></li>
+											<li><a href="#">Политика конфиденциальности </a></li>
+											<li><a href="#">Пользовательское соглашение</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer__column">
+									<div class="footer__title">Интернет-магазин <i class="far fa-chevron-down"></i></div>
+									<div class="footer__content">
+										<ul class="footer__nav">
+											<li><a href="#">Визуальный подбор</a></li>
+											<li><a href="#">Оплата и доставка</a></li>
+											<li><a href="#">Полезная информация</a></li>
+											<li><a href="#">Вопрос ответ</a></li>
+										</ul>
+									</div>
+									<div class="footer__title">Каталог <i class="far fa-chevron-down"></i></div>
+									<div class="footer__content">
+										<ul class="footer__nav">
+											<li><a href="#">Бытовые сплит-системы</a></li>
+											<li><a href="#">Мульти сплит-системы</a></li>
+											<li><a href="#">Полупромышленные сплит-системы</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="footer__column">
+									<div class="footer__title">Контакты <i class="far fa-chevron-down"></i></div>
+									<div class="footer__content">
+										<div class="footer__contact">
+											<p>Отдел продаж:</p>
+											<div class="footer__contact-line">
+												<a href="tel:+79789415191" class="footer__phone">+7 (978) 941-51-91</a>
+												<ul class="socials-list">
+													<li><a href="#" target="_blank"><img src="img/whatsap.svg" alt="alt"></a></li>
+													<li><a href="#" target="_blank"><img src="img/telegram.svg" alt="alt"></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="footer__contact">
+											<p>Связь с нами:</p>
+											<div class="footer__contact-line">
+												<a href="tel:+79791008377" class="footer__phone">+7 (979) 100-83-77</a>
+												<ul class="socials-list">
+													<li><a href="#" target="_blank"><img src="img/whatsap.svg" alt="alt"></a></li>
+													<li><a href="#" target="_blank"><img src="img/telegram.svg" alt="alt"></a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="footer__contact"><strong>Режим работы:</strong> <br>с 9:00 до 17:00 по будням</div>
+										<div class="footer__contact"><strong>Почта:</strong> <br>klimata82@mail.ru</div>
+									</div>
+								</div>
+							</div>
+							<div class="footer__bottom">
+								<div class="footer__wrapper">
+									<div class="footer__links">
+										<a href="#">Политика конфиденциальности</a>
+										<a href="#">Согласие на обработку персональных данных</a>
+									</div>
+									<div class="copyright">© Copyright 2025 г.</div>
+									<div class="create">Сделано в <a href="#" target="_blank"><img src="img/sheer.svg" alt="alt"></a></div>
+								</div>
+							</div>
+						</footer>
+
+					</div>
+				</div>
+			</div>
+		</main>
+		
+	</div>
+
+
+	<script src="libs/jquery/jquery-3.6.0.min.js"></script>
+	<script src="libs/fancybox-master/dist/jquery.fancybox.min.js"></script>
+	<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+	<script src="libs/mask/jquery.maskedinput.js"></script>
+	<script src="js/common.js?ver=1.1"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
